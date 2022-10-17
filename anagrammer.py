@@ -18,6 +18,7 @@ word = args["word"]
 anylen = args["anylen"]
 verbose = args["verbose"]
 tabulate = args["tabulate"]
+us_dict = args["us_dict"]
 
 d = enchant.Dict("en_US") if us_dict else enchant.Dict("en_GB")
 posslen = 0
