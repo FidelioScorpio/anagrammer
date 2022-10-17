@@ -1,0 +1,1 @@
+./anagrammer2.py -l -t -w <WORD>
